@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  color: grey;
+}
+
+section.jumbotron {
+  background-color: inherit;
+  margin: 0;
+}
+
+button.App-note-title {
+  width: 30vw;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: lightblue;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* button.App-button-add {
+  margin: 10px auto;
+  background-color: rgb(79, 163, 190);
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  color: white;
+} */
+
+.card.card-container {
+  width: 30vw;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: lightblue;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-container .card-text {
+  min-height: 200px;
+}
+
+.card-container .card-text text-area {
+  height: 200px;
+  border-color: aqua;
+}
+
+.container-button {
+  width: 30vw;
+  margin: 10px auto;
+  text-align: center;
+}
+
+button.button-red {
+  margin: 10px;
+  background-color: rgb(233, 99, 99);
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  color: white;
+}
+
+button.button-green {
+  margin: 10px;
+  background-color: rgb(90, 201, 90);
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  color: white;
+}
+
+button.button-yellow {
+  margin: 10px;
+  background-color: rgb(240, 212, 56);
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  color: white;
+}
+
+button.button-blue {
+  margin: 10px;
+  background-color: rgb(79, 163, 190);
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  color: white;
+}
+
+.card-text {
+  white-space: pre-line;
+}
